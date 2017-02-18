@@ -1,0 +1,11 @@
+.h5_component_bin{
+	width:100%;
+	height:100%;
+}
+.h5_component_bin canvas{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	
+}

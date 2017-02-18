@@ -1,0 +1,24 @@
+.h5_component .vbar{
+	height: 100%;
+	line-height: 15px;
+	font-size: 12px;
+	float:left;
+}
+.h5_component .vbar .per{
+	text-align: center;
+	font-size: 0.65em;
+	position: absolute;
+}
+.h5_component .vbar .name{
+	text-align: center;
+	font-size: 1em;
+	float: left;
+	position: relative;
+}
+.h5_component .vbar .barpic{
+	border-radius: 4px;
+	position: absolute;
+	float: left;
+	height: 15px;
+	bottom: 0;
+}

@@ -1,0 +1,43 @@
+body{
+	font-family: "microsoft yahei"
+}
+.h5_component .point{
+	position: absolute;
+	border-radius: 50%;
+	
+}
+.h5_component .point .per{
+	text-align: center;
+	font-size: 0.65em;
+}
+.h5_component .point .name{
+	text-align: center;
+	position: relative;
+	color: #fff;
+	margin-top: 50%;
+	top:-1em;
+	font-size: 1em;
+}
+.h5_component .loadOkay{
+	animation:mymove 2s infinite;
+}
+@keyframes mymove{
+	0{
+		box-shadow:0 0 0 0 #fff;	
+	}
+	50%{
+		box-shadow:0 0 15px 0px #ff3;
+	}
+	100%{
+		box-shadow:0 0 0 30px transparent;
+		
+	}
+}
+
+
+
+
+
+
+
+
